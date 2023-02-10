@@ -14,7 +14,13 @@ Click on the New Review button on the Nav Bar! Then you will come to a form that
 
 ## Links
 
-imagine i put links here pls
+[GitHub](https://github.com/QueenlyCrimson/project-2)
+
+[Trello](https://trello.com/b/LpHkOydz/unit-2-project)
+
+[ERD](https://drive.google.com/file/d/1wx7qerVsMvFaWcFWygStIkbW9Cr8F13e/view?usp=sharing)
+
+[CHD](https://drive.google.com/file/d/1E9Nj3r5foCBLcM9yi42t-bLe7XDcscMs/view?usp=sharing)
 
 ## Upcoming Features
 
