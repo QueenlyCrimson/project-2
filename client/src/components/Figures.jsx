@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Figure from "./Figure";
 import axios from "axios";
+import FigureFormUpdate from "./FigureFormUpdate";
 
 
 const Figures = (props) => {
@@ -18,6 +19,8 @@ const Figures = (props) => {
     getFigs()
   }
 
+
+
   useEffect(()=> {
     getFigs()
   }, [])
@@ -30,6 +33,7 @@ const Figures = (props) => {
         {figureCollection.map((figure) => (
           <div key={figure._id}>
             <Figure figure={figure} />
+            <FigureFormUpdate figure={figure} getFigs={getFigs} />
             <button onClick={() => delFig(figure._id)}>Delete</button>
           </div>
         ))}
