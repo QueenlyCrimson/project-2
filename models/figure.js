@@ -5,11 +5,11 @@ const Figure = new Schema(
   {
     name: { type: String, required: true },
     description: { type: String, required: true },
-    class: { type: String, required: false },
+    class: { type: String },
     brand: { type: String, required: true },
     releaseDate: { type: String, required: true },
     price: { type: Number, required: true },
-    image: { type: String, required: true },
+    image: { type: String },
   },
   { timestamps: true }
 );
