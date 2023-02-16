@@ -6,7 +6,8 @@ const Nav = () => {
     <header>
       <nav>
         <Link to="/" >Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/figures">Figures</Link>
+        <Link to="/FigureFormCreate">Add Figure</Link>
       </nav>
     </header>
   )
