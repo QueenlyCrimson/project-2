@@ -37,6 +37,10 @@ html {
   background-color: black;
 }
 
+.post {
+  background-color: gray;
+}
+
 .figure {
   border: 0.2vh black solid;
   margin: 5% 20% 5% 20%;
