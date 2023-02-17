@@ -41,15 +41,16 @@ html {
   background-color: black;
 }
 
+.figures {
+  background-color: black;
+}
+
 .post {
   background-color: gray;
   border: white 0.2vh solid;
 }
 
-.figure {
-  background-color: gray;
-  border: white 0.2vh solid;
-}
+
 
 .postTitle {
   font-size: 4vh;
@@ -68,12 +69,13 @@ html {
 }
 
 .figure {
-  border: 0.2vh black solid;
   margin: 5% 20% 5% 20%;
   display:flex;
   flex-direction: column;
   padding-left: 10vh;
   padding-right: 10vh;
+  background-color: gray;
+  border: white 0.2vh solid;
 }
 
 .figureImage {
