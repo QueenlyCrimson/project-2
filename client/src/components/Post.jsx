@@ -7,8 +7,8 @@ const Post = (props) => {
   return(
     <div className="post">
       <div className="postTitle">{post.title}</div>
-      <div className="postFigure">{post.figure}</div>
-      <div className="postDate">{post.date}</div>
+      <div className="postFigure">Figure: {post.figure}</div>
+      <div className="postDate">Date: {post.date}</div>
       <div className="postUser">{post.user}</div>
       <div className="rating">{post.rating}</div>
       <div>

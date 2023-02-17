@@ -44,7 +44,7 @@ const FigureFormCreate = () => {
         <input type="text" value={newForm.releaseDate} onChange={handleChange} name="releaseDate"></input>
         <input type="number" value={newForm.price} onChange={handleChange} name="price"></input>
         <input type="text" value={newForm.image} onChange={handleChange} name="image"></input>
-        <button>Submit</button>
+        <button class ="submit-button">Submit</button>
       </form>
     </div>
   )
