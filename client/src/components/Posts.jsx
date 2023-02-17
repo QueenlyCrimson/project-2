@@ -14,7 +14,7 @@ const Posts = (props) => {
   }
 
   const delPost = async (post_id) => {
-    const props = await axios.delete(`http://localhost:3001/api/${post_id}`)
+    const props = await axios.delete(`http://localhost:3001/api/posts/${post_id}`)
     getPosts()
   }
 
