@@ -39,6 +39,7 @@ html {
 
 .post {
   background-color: gray;
+  border: white 0.2vh solid;
 }
 
 .figure {
