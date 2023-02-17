@@ -37,7 +37,7 @@ const PostFormCreate = () => {
   }
 
   return(
-    <div>
+    <div class="container-for-form">
       <h2>Post Review</h2>
       <form onSubmit={handleSubmit} class="form">
         <input type="text" value={newForm.user} onChange={handleChange} name="user" placeholder='User' ></input>

@@ -34,16 +34,16 @@ const FigureFormCreate = () => {
   }
 
   return(
-    <div>
+    <div class="container-for-form">
       <h2>Post Figure</h2>
       <form onSubmit={handleSubmit} class="form">
-        <input type="text" value={newForm.name} onChange={handleChange} name="name"></input>
-        <input type="text" value={newForm.description} onChange={handleChange} name="description"></input>
-        <input type="text" value={newForm.class} onChange={handleChange} name="class"></input>
-        <input type="text" value={newForm.brand} onChange={handleChange} name="brand"></input>
-        <input type="text" value={newForm.releaseDate} onChange={handleChange} name="releaseDate"></input>
-        <input type="number" value={newForm.price} onChange={handleChange} name="price"></input>
-        <input type="text" value={newForm.image} onChange={handleChange} name="image"></input>
+        <input type="text" value={newForm.name} onChange={handleChange} name="name" placeholder="Figure Name"></input>
+        <input type="text" value={newForm.description} onChange={handleChange} name="description" placeholder="Description"></input>
+        <input type="text" value={newForm.class} onChange={handleChange} name="class" placeholder="Class"></input>
+        <input type="text" value={newForm.brand} onChange={handleChange} name="brand" placeholder="Brand"></input>
+        <input type="text" value={newForm.releaseDate} onChange={handleChange} name="releaseDate" placeholder="Release Year"></input>
+        <input type="number" value={newForm.price} onChange={handleChange} name="price" placeholder="Price"></input>
+        <input type="text" value={newForm.image} onChange={handleChange} name="image" placeholder="Image Link"></input>
         <button class ="submit-button">Submit</button>
       </form>
     </div>

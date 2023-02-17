@@ -2,7 +2,7 @@
 
 ## By Erin Keys
 
-[imagine this is a gif of the final product]()
+![image](https://cdn.discordapp.com/attachments/710881503592185867/1076215350162620506/image.png)
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ Click on the New Review button on the Nav Bar! Then you will come to a form that
 
 [ERD](https://drive.google.com/file/d/1wx7qerVsMvFaWcFWygStIkbW9Cr8F13e/view?usp=sharing)
 
-[CHD](https://drive.google.com/file/d/1E9Nj3r5foCBLcM9yi42t-bLe7XDcscMs/view?usp=sharing)
+[Component Hierachy Diagram](https://drive.google.com/file/d/1E9Nj3r5foCBLcM9yi42t-bLe7XDcscMs/view?usp=sharing)
 
 ## Upcoming Features
 

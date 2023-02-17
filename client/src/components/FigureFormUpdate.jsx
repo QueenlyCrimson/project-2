@@ -20,16 +20,16 @@ const FigureFormUpdate = ({ figure, getFigs }) => {
   }
 
   return(
-    <div class="form-container">
+    <div class="container-for-form">
       <h1 class="edit">Edit</h1>
       <form onSubmit={updateCall} class="form">
-        <input type="text" value={updateFigure.name} onChange={handleChange} name="name"></input>
-        <input type="text" value={updateFigure.description} onChange={handleChange} name="description"></input>
-        <input type="text" value={updateFigure.class} onChange={handleChange} name="class"></input>
-        <input type="text" value={updateFigure.brand} onChange={handleChange} name="brand"></input>
-        <input type="text" value={updateFigure.releaseDate} onChange={handleChange} name="releaseDate"></input>
-        <input type="number" value={updateFigure.price} onChange={handleChange} name="price"></input>
-        <input type="text" value={updateFigure.image} onChange={handleChange} name="image"></input>
+        <input type="text" value={updateFigure.name} onChange={handleChange} name="name" placeholder="Figure Name"></input>
+        <input type="text" value={updateFigure.description} onChange={handleChange} name="description" placeholder="Description"></input>
+        <input type="text" value={updateFigure.class} onChange={handleChange} name="class" placeholder="Class"></input>
+        <input type="text" value={updateFigure.brand} onChange={handleChange} name="brand" placeholder="Brand"></input>
+        <input type="text" value={updateFigure.releaseDate} onChange={handleChange} name="releaseDate" placeholder="Release Year"></input>
+        <input type="number" value={updateFigure.price} onChange={handleChange} name="price" placeholder="Price"></input>
+        <input type="text" value={updateFigure.image} onChange={handleChange} name="image" placeholder="Image Link"></input>
         <button>Submit</button>
       </form>
     </div>
