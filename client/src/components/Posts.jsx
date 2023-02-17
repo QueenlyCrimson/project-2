@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Post from './Post'
-import PostFormUpdate from "./PostFormUpdate";
+
 
 const Posts = (props) => {
 
@@ -32,7 +32,7 @@ const Posts = (props) => {
         {postsCollection.map((post) => (
           <div key={post._id}>
             <Post post={post} />
-            {/* <PostFormUpdate post={post} getPosts={getPosts} /> */}
+            
             <button onClick={() => delPost(post._id)}>Delete</button>
           </div>
         ))}
