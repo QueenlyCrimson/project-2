@@ -47,7 +47,7 @@ const PostFormCreate = () => {
         <input type="text" value={newForm.image} onChange={handleChange} name="image" placeholder="Image Link"></input>
         <input type="text" value={newForm.content} onChange={handleChange} name="content" placeholder="Review Content"></input>
         <input type="text" value={newForm.rating} onChange={handleChange} name="rating" placeholder="Rating (1-10)"></input>
-        <button type="submit" >Submit</button>
+        <button type="submit" class ="submit-button" >Submit</button>
       </form>
     </div>
   )
