@@ -42,6 +42,10 @@ html {
   border: white 0.2vh solid;
 }
 
+.postTitle {
+  font-size: 4vh;
+}
+
 .figure {
   border: 0.2vh black solid;
   margin: 5% 20% 5% 20%;
