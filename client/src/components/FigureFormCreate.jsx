@@ -35,6 +35,7 @@ const FigureFormCreate = () => {
 
   return(
     <div>
+      <h2>Post Figure</h2>
       <form onSubmit={handleSubmit} class="form">
         <input type="text" value={newForm.name} onChange={handleChange} name="name"></input>
         <input type="text" value={newForm.description} onChange={handleChange} name="description"></input>

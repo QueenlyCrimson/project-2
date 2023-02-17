@@ -5,7 +5,6 @@ const Post = new Schema(
   {
     user: { type: String, required: true },
     figure: { type: String, required: true },
-    figure_id: { type: String, required: true },
     title: { type: String, required: true },
     date: { type: String, required: true },
     image: { type: String, required: true },
