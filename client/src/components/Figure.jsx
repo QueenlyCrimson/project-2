@@ -6,7 +6,7 @@ const Figure = (props) => {
 
   return(
     <div className="figure">
-      <div className="figureName">{figure.name}</div>
+      <div className="figureName">Figure: {figure.name}</div>
       <div className="figureDate">{figure.releaseDate}</div>
       <img src={figure.image}></img>
       <div className="figureDescription">{figure.description}</div>
