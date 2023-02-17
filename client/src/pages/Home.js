@@ -5,7 +5,7 @@ const Home = (props) => {
 
   return (
     <div>
-      <Posts posts={posts} />
+      <Posts />
     </div>
   );
 };

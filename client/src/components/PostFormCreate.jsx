@@ -1,5 +1,7 @@
 import axios from 'axios'
 import { useState }  from "react"
+import { useNavigate } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 
 const PostFormCreate = () => {
@@ -23,7 +25,8 @@ const PostFormCreate = () => {
     .catch((error) => {
       console.error(error)
     })
-    console.log(newForm)
+    
+    
   }
 
   const handleChange = (e) => {
@@ -42,9 +45,9 @@ const PostFormCreate = () => {
         <input type="text" value={newForm.title} onChange={handleChange} name="title" placeholder="Review Title"></input>
         <input type="text" value={newForm.date} onChange={handleChange} name="date" placeholder="Today's Date"></input>
         <input type="text" value={newForm.image} onChange={handleChange} name="image" placeholder="Image Link"></input>
-        <input type="number" value={newForm.content} onChange={handleChange} name="content" placeholder="Review Content"></input>
-        <input type="text" value={newForm.rating} onChange={handleChange} name="rating" placeholder="Rating"></input>
-        <button>Submit</button>
+        <input type="text" value={newForm.content} onChange={handleChange} name="content" placeholder="Review Content"></input>
+        <input type="text" value={newForm.rating} onChange={handleChange} name="rating" placeholder="Rating (1-10)"></input>
+        <button type="submit" >Submit</button>
       </form>
     </div>
   )
