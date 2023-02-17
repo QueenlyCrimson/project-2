@@ -18,6 +18,10 @@ html {
   }
 }
 
+.page-title {
+  color: white;
+}
+
 .post {
   border: 0.2vh black solid;
   margin: 5% 20% 5% 20%;
@@ -38,6 +42,11 @@ html {
 }
 
 .post {
+  background-color: gray;
+  border: white 0.2vh solid;
+}
+
+.figure {
   background-color: gray;
   border: white 0.2vh solid;
 }

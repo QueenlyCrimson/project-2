@@ -27,7 +27,7 @@ const Posts = (props) => {
 
   return(
     <div className="posts">
-      <h2>Recent Reviews</h2>
+      <h2 class="page-title">Recent Reviews</h2>
       <section class="posts-feed">
         {postsCollection.map((post) => (
           <div key={post._id}>

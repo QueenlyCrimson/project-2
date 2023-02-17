@@ -28,7 +28,7 @@ const Figures = (props) => {
 
   return(
     <div className="figures">
-      <h2>Figures</h2>
+      <h2 class="page-title">Figures</h2>
       <section class="figures-feed">
         {figureCollection.map((figure) => (
           <div key={figure._id}>
