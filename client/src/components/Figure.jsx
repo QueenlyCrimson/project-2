@@ -12,7 +12,7 @@ const Figure = (props) => {
       <div className="figureDescription">{figure.description}</div>
       <div className="figureClass">Class: {figure.class}</div>
       <div className="figureBrand">Brand: {figure.brand}</div>
-      <div className="figurePrice">Retail Price: ${}</div>
+      <div className="figurePrice">Retail Price: ${figure.price}</div>
 
 
     </div>
