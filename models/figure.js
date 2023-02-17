@@ -8,7 +8,7 @@ const Figure = new Schema(
     class: { type: String },
     brand: { type: String, required: true },
     releaseDate: { type: String, required: true },
-    price: { type: Number, required: true },
+    price: { type: String, required: true },
     image: { type: String },
   },
   { timestamps: true }
