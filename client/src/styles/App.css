@@ -22,8 +22,16 @@ html {
   color: white;
 }
 
+.delb {
+  margin: 4vh;
+}
+
+.edit {
+  color:white;
+}
+
 .post {
-  border: 0.2vh black solid;
+  border: 0.2vh white solid;
   margin: 5% 20% 5% 20%;
   display:flex;
   flex-direction: column;
@@ -35,6 +43,14 @@ html {
   display:flex;
   flex-direction: column;
   align-items: center;
+  background-color: gray;
+  border: 0.2vh white solid;
+  max-width: 20%;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .posts {

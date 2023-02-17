@@ -20,7 +20,8 @@ const FigureFormUpdate = ({ figure, getFigs }) => {
   }
 
   return(
-    <div>
+    <div class="form-container">
+      <h1 class="edit">Edit</h1>
       <form onSubmit={updateCall} class="form">
         <input type="text" value={updateFigure.name} onChange={handleChange} name="name"></input>
         <input type="text" value={updateFigure.description} onChange={handleChange} name="description"></input>

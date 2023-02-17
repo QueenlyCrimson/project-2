@@ -34,7 +34,7 @@ const Figures = (props) => {
           <div key={figure._id}>
             <Figure figure={figure} />
             <FigureFormUpdate figure={figure} getFigs={getFigs} />
-            <button onClick={() => delFig(figure._id)}>Delete</button>
+            <button class="delb" onClick={() => delFig(figure._id)}>Delete</button>
           </div>
         ))}
       </section>
