@@ -10,7 +10,7 @@ const Post = (props) => {
       <div className="postFigure">Figure: {post.figure}</div>
       <div className="postDate">Date: {post.date}</div>
       <div className="postUser">User: {post.user}</div>
-      <div className="rating">{post.rating}</div>
+      <div className="rating">Rating: {post.rating}</div>
       <div>
         <img className="figureImage" src={post.image}></img>
       </div>
