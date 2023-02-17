@@ -37,13 +37,13 @@ const PostFormCreate = () => {
     <div>
       <h2>Post Review</h2>
       <form onSubmit={handleSubmit} class="form">
-        <input type="text" value={newForm.user} onChange={handleChange} name="name" placeholder='User' ></input>
-        <input type="text" value={newForm.figure} onChange={handleChange} name="description" placeholder='Figure Name (Be Exact!!)' ></input>
-        <input type="text" value={newForm.title} onChange={handleChange} name="class"></input>
-        <input type="text" value={newForm.date} onChange={handleChange} name="brand"></input>
-        <input type="text" value={newForm.image} onChange={handleChange} name="releaseDate"></input>
-        <input type="number" value={newForm.content} onChange={handleChange} name="price"></input>
-        <input type="text" value={newForm.rating} onChange={handleChange} name="image"></input>
+        <input type="text" value={newForm.user} onChange={handleChange} name="user" placeholder='User' ></input>
+        <input type="text" value={newForm.figure} onChange={handleChange} name="figure" placeholder='Figure Name (Be Exact!)' ></input>
+        <input type="text" value={newForm.title} onChange={handleChange} name="title" placeholder="Review Title"></input>
+        <input type="text" value={newForm.date} onChange={handleChange} name="date" placeholder="Today's Date"></input>
+        <input type="text" value={newForm.image} onChange={handleChange} name="image" placeholder="Image Link"></input>
+        <input type="number" value={newForm.content} onChange={handleChange} name="content" placeholder="Review Content"></input>
+        <input type="text" value={newForm.rating} onChange={handleChange} name="rating" placeholder="Rating"></input>
         <button>Submit</button>
       </form>
     </div>
