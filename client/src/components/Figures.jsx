@@ -9,13 +9,13 @@ const Figures = (props) => {
   const [figureCollection, setFigureCollection] = useState([])
 
   const getFigs = async () => {
-    const props = await axios.get('http://localhost:3001/api/figures')
+    const props = await axios.get('https://transformers-reviewers-api.onrender.com/api/figures')
     console.log(props)
     setFigureCollection(props.data.figures)
   }
 
   const delFig = async (figure_id) => {
-    const props = await axios.delete(`http://localhost:3001/api/figures/${figure_id}`)
+    const props = await axios.delete(`https://transformers-reviewers-api.onrender.com/api/figures/${figure_id}`)
     getFigs()
   }
 

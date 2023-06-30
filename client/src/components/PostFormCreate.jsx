@@ -18,7 +18,7 @@ const PostFormCreate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post('http://localhost:3001/api/posts', newForm)
+    axios.post('https://transformers-reviewers-api.onrender.com/api/posts', newForm)
     .then((response)=> {
       console.log(response)
     }) 

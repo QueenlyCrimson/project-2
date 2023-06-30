@@ -8,13 +8,13 @@ const Posts = (props) => {
   const [postsCollection, setPostsCollection] = useState([])
 
   const getPosts = async () => {
-    const props = await axios.get('http://localhost:3001/api/')
+    const props = await axios.get('https://transformers-reviewers-api.onrender.com/api/')
     console.log(props)
     setPostsCollection(props.data.posts)
   }
 
   const delPost = async (post_id) => {
-    const props = await axios.delete(`http://localhost:3001/api/posts/${post_id}`)
+    const props = await axios.delete(`https://transformers-reviewers-api.onrender.com/api/posts/${post_id}`)
     getPosts()
   }
 
