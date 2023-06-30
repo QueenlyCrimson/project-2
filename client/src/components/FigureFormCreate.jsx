@@ -16,7 +16,7 @@ const FigureFormCreate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post('http://localhost:3001/api/figures', newForm)
+    axios.post('https://transformers-reviewers-api.onrender.com/api/figures', newForm)
     .then((response)=> {
       console.log(response)
     }) 

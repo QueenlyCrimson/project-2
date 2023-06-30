@@ -15,7 +15,7 @@ const FigureFormUpdate = ({ figure, getFigs }) => {
 
   const updateCall = async (e) => {
     e.preventDefault()
-    await axios.put(`http://localhost:3001/api/figures/${figure._id}`, updateFigure)
+    await axios.put(`https://transformers-reviewers-api.onrender.com/api/figures/${figure._id}`, updateFigure)
     getFigs()
   }
 
